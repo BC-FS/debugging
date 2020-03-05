@@ -52,7 +52,7 @@ var total = 8;
 function start() {
   console.time('process');
 
-  console.log('app has started');
+  console.log('%cApp has started', 'color: green; font-size: 20px; font-weight: bold');
 
   // display countries
   displayCountries(data);
